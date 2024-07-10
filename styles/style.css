@@ -84,7 +84,7 @@
     margin: 100px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px 80px 97px;
+    padding: 55px 97px 55px 97px;
 }
 
 .why-dev-content{
@@ -97,7 +97,6 @@
     width: 852px;
     margin: 0 auto;
     margin-bottom: 30px;
-
 }
 
 .why-dev-title{
@@ -305,3 +304,41 @@ input[type="text"]{
     text-align: center;
 }
 /* support section style ends */
+
+/* footer styles starts */
+footer{
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.046);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-image img{
+    width: 35px;
+    height: 35px;
+}
+/* footer styles ends */
